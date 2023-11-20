@@ -19,6 +19,11 @@ for number in range(start_buzz, end_buzz + 1):
     print(output)
 
 time_end = datetime.now()
-print(f"fizzy buzzy between {start_buzz} to {end_buzz}")
+
+print(f"\nfizzy buzzy between {start_buzz} to {end_buzz}")
 print(f"run start time {time_start}")
 print(f"run end time {time_end}")
+
+print("\nBuzz checks:")
+for buzz in check_buzz:
+    print(f"{buzz} - {check_buzz[buzz]}")
