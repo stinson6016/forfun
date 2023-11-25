@@ -1,3 +1,4 @@
+# fizz buzz because why not
 from datetime import datetime
 
 time_start = datetime.now()
