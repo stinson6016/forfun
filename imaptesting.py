@@ -1,3 +1,6 @@
+# code moved to project vtiemaildownloader
+# using the schedule from scheduletest file
+
 from imap_tools import MailBox, AND, NOT
 from os import getenv
 from dotenv import load_dotenv
